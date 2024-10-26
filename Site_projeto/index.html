@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset ="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inserir título</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="navbar">
+    <img class="row-1" src="Faça-se_Luz.png">
+    <div class="titulo">
+      <p class="letra">Discípulos de Hemera</p>
+      <div class="row-2">
+        <a href="#personagens">Personagens</a>
+        <a href="#sobre">Sobre</a>
+        <a href="github">Github</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="personagens" class="personagens">
+    <div class="slides">
+      <div class="slide">
+          <h2>Discípulos de Hemera</h2>
+          <img src="Discípulos_de_Hemera.png">
+          <p class="typing-output"></p>
+      </div>
+      <div class="slide">
+          <h2>Zeriel, o Guardião da Aurora</h2>
+          <img src="Personagem_Romulo.png">
+          <p class="typing-output"></p>
+      </div>
+      <div class="slide">
+          <h2>Mantis</h2>
+          <img src="Personagem_Joana.png">
+          <p class="typing-output"></p>
+      </div>
+      <div class="slide">
+          <h2>Rhaegar Kamoris</h2>
+          <img src="Personagem_Enzo.png">
+          <p class="typing-output"></p>
+      </div>  
+    </div>
+    
+    <button class="prev" onclick="changeSlide(-1)">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+      </svg>
+    </button>
+    
+    <button class="next" onclick="changeSlide(1)">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+      </svg>
+    </button>
+  </div> 
+  
+  <div id="sobre" class="historia">
+    <h1>Sobre</h1>
+    <p>Personagens fictícios criados para o projeto da disciplina Aprendizado de Máquina. Para mais informações sobre o projeto, acessar o GitHub. </p>
+  </div>
+
+  <footer>
+    <a href="https://github.com/">
+      <img src="vecteezy_github-logo-git-hub-icon-with-text-on-white-and-black_17119660.jpg">
+    </a>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
