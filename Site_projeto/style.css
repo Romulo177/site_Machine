@@ -133,6 +133,10 @@ button {
     font-family: 'Great Vibes', cursive;
     word-spacing: 7px;
 }
+.quests .slide{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
 .slide a{
     margin-bottom: 10px;
     font-family: Algerian;
@@ -176,6 +180,9 @@ footer{
     bottom: 0;    text-align: center;
     border-top: solid white 2px;
 
+}
+.dragao img{
+    width: 100%;
 }
 footer button{
     color: none;
