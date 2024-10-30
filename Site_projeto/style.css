@@ -43,6 +43,13 @@ body{
     margin: 0;
     justify-self: center;
 }
+.historia{
+    padding: 20px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+    text-align: center;
+
+}
 .row-1{
     grid-area: row-1;
     padding: 2px;
@@ -82,7 +89,18 @@ body{
     width: 30%;
     display: block;
 }
+.quests{
+    background-color: #000;
+}
+.quests{
+    padding-bottom: 7px;
+    border: solid white 2px;
+}
 .slide {
+        font-family: 'Great Vibes', cursive;
+        text-shadow: black 10px 10px 15px;
+
+        font-size: 32px;
         color: aliceblue;
         min-width: 100%;
         padding-left: 3%;
@@ -129,7 +147,7 @@ button {
 .typing-output{
     color: aliceblue;
     text-shadow: black 10px 10px 15px;
-    font-size: 22px;
+    font-size: 24px;
     font-family: 'Great Vibes', cursive;
     word-spacing: 7px;
 }
@@ -177,12 +195,22 @@ footer{
     background-color: #000;
     padding: 20px;
     left: 0;
-    bottom: 0;    text-align: center;
-    border-top: solid white 2px;
-
+    bottom: 0;    
+    text-align: center;
 }
 .dragao img{
+    margin: 12px 0;
+    border: solid white 2px;
     width: 100%;
+}
+.sobre{
+    width: 100%;
+    border-top: solid white 2px;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 7px;
 }
 footer button{
     color: none;
